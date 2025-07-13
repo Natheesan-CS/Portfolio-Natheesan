@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website - Natheesan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3af071eb0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header_text">
+            <p>Undergrauate</p>
+            <h1>Hi I'm <span>Nathee</span><br> From SriLanka</h1>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------about--------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I’m Natheesan, a passionate frontend developer and a second-year Computer Science undergraduate at the University of Sri Jayewardenepura, Sri Lanka.
+                         I come from Jaffna, and I’ve always had a deep interest in coding, design, and building user-friendly web experiences.
+Academically, I’ve been a strong performer throughout. I completed my G.C.E. Ordinary Level with 9 A passes, and went on to achieve A2B in Advanced Level Mathematics, specializing in Combined Maths. My academic success led me to pursue my dream of studying Computer Science, and I’m currently working towards my BComp (Hons) degree, expected to graduate in 2028.
+In my first year, I learned core programming languages like C++ and Java, and gained practical experience working with MySQL databases. These fundamentals helped me understand problem-solving, algorithms, and data management.
+Now in my second year, I’m focusing on Web Technologies. I’ve been working with HTML, CSS, JavaScript, and PHP, building responsive and visually appealing websites. I particularly enjoy the creativity and logic involved in frontend development, where I get to turn ideas into real, interactive designs.
+I love experimenting with new design trends and improving my coding skills through hands-on projects. I enjoy both working independently and collaborating with others, especially when it involves UI design and frontend integration.
+My goal is to become a skilled frontend developer who builds meaningful digital products that make a positive impact. I believe learning is a continuous journey, and I’m excited to grow, explore new technologies, and contribute to the world through code.
+Thanks for stopping by my portfolio. Let’s connect and create something awesome!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievments')">Achievments</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Computer Sciecence Student at University of Sri Jayewardanapura</li>
+                            <li><span>2022 - 2024</span><br>Learning 'code without coding' Open Source and web development at DP Academy </li>
+    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>University Of Sri Jayewardanapura</li>
+                            <li><span>2014 - 2023</span><br>Jaffna Hindu College</li>
+                            <li><span>2009 - 2013</span><br>St Benedict RC Vidyalaya</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievments">
+                        <ul>
+                            <li></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------------------services---------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I build responsive and functional websites using the latest web technologies. From layout to interactivity, I turn designs into fast, mobile-friendly web pages.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX</h2>
+                <p>I create clean, user-friendly interfaces with a focus on simplicity and usability. My designs are responsive, modern, and tailored to deliver a smooth user experience across all devices.
+I'm using Figma, Adobe XD as tools
+</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Learning now!!!!!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------portfolio------------------------------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Pet Care Website</h3>
+                    <p>A responsive website designed for pet lovers and owners to access pet care tips, services, and product recommendations. The site features clean UI, informative content, and user-friendly navigation to help visitors find what they need quickly and easily
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A modern and interactive music streaming interface where users can explore songs, create playlists, and enjoy a seamless audio experience. The app focuses on smooth UI transitions, media controls, and responsive design
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p>An e-commerce-style web application that allows users to browse products, add to cart, and view product details. The design focuses on simplicity and usability, with responsive layouts and dynamic elements.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------------------------------------------contact------------------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123567989</p>
+                <div class="social-icons">
+                    <a href="https://facebbook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Downlod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;Nathee. Made with <i class="fa-solid fa-heart"></i> by Code</p>
+    </div>
+</div>
+
+<!-----------------------------------Form--To--Googlesheet--------------------------------------------->
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+     function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxVHoq_79J8GcuBRiZugX2kowu20xvgoOoBjVueC8xQ1d9GAUep6huJIEREU-LYem9Y/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },4000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
